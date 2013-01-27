@@ -1,0 +1,7 @@
+tuto_animaux_homepage:
+    pattern:  /
+    defaults: { _controller: TutoAnimauxBundle:Default:index }
+
+tuto_animaux_ajouter:
+    pattern:  /ajouter
+    defaults: { _controller: TutoAnimauxBundle:Default:ajouter }
